@@ -20,6 +20,6 @@ console.log("port"+PORT+" : Node.js Server...");
 
 board.on("ready", function() {
   var led = new five.Led(12);
-  //led.blink(500);
+  led.blink(500);
 });
 
